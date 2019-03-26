@@ -1,0 +1,73 @@
+$font-family: "Microsoft YaHei";
+
+// btn_common 按钮通用样式规则
+$btn-font-size: 18px;                 // 按钮文字大小
+$btn-border-radius: 3px;              // 按钮圆角大小
+$btn-border-width: 1px;               // 按钮边框宽度
+$btn-border-color: #D0DAE8;           // 按钮边框颜色
+$btn-text-align: center;              // 按钮对齐方式
+$btn-backgroundColor_deep: #1A82E2;   // 蓝色按钮背景色
+$btn-color_deep: #FFF;                // 蓝色按钮字体颜色
+$btn-backgroundColor_light: #F8FAFF;  // 白色按钮背景色
+$btn-color_light: #294762;            // 白色按钮字体颜色
+$btn-icon-margin: 8px;                // 按钮中图标和文字之间间距
+
+// btn_pert 局部功能的按钮样式
+$btnP-min-width: 66px;                // 按钮最小宽度
+$btnP-normal-height: 36px;            // 按钮高度
+$btnP-horizontal-padding: 16px;       // 按钮文字增多时左右间距 16px
+$btnP-margin: 12px;                   // 多个按钮之间间距
+
+// btn_all  整体功能的按钮样式
+$btnA-min-width: 112px;               // 按钮最小宽度
+$btnA-normal-height: 48px;            // 按钮高度
+$btnA-horizontal-padding: 24px;       // 按钮文字增多时左右间距 24px
+$btnA-margin: 32px;                   // 多个按钮之间间距
+
+// input  输入框
+$input-font-size: 18px;               // 输入框文字大小
+$input-font-color: #4A637A;           // 输入框文字颜色
+$input-tip-size: 18px;                // 输入框占位提示文字大小
+$input-tip-color: #B2BBC6;            // 输入框占位提示文字颜色
+$input-required-color: #F12A2A;       // 输入框必填 * 的颜色
+$input-border-color: #D0DAE8;         // 输入框边框颜色
+$input-border-width: 1px;             // 输入框边框宽度
+$input-border-radius: 3px;            // 输入框边框圆角大小
+$inputting-border-color: #1A82E2;     // 输入时内边框颜色
+$inputting-outer-color: #D1E6F9;      // 输入时外边框颜色
+$input-disabled-backColor: #E8ECF2;   // 输入框禁用时背景颜色
+$input-err-border-color: #F12A2A;     // 输入内容错误时边框颜色
+$input-err-color: #F12A2A;            // 输入内容错误时提示文字颜色
+$input-err-font-size: 16px;           // 输入内容错误时提示文字大小
+$form-btn-height: 40px;               // 表单按钮高度
+$form-btn-min-width: 84px;            // 表单按钮最小宽度
+$form-btn-horizontal-padding: 16px;   // 表单按钮文字增多时左右间距 16px
+$form-label-margin: 8px;              // 表单项标签距离右侧元素间距
+$form-item-margin: 24px;              // 表单项行间距离
+
+/*
+table  表格
+  tableH ==> table-header
+  tableB ==> table-body
+  tableO ==> table-operate
+  tableT ==> tale-tooltip
+*/
+$table-font-size: 16px;               // 表格文字大小
+$tableH-font-weight: bold;            // 表头文字粗细
+$tableH-color: #7F90A0;               // 表头文字颜色
+$tableH-backgroundColor: #F8FAFF;     // 表头背景颜色
+$tableB-color: #294762;               // 表格内容文字颜色
+$tableO-color: #1A82E2;               // 表格操作项文字颜色
+$tableO-horizontal-padding: 24px;     // 表格操作项左右间距 24px
+$table-border-color: #D0DAE8;         // 表格边框颜色
+$table-border-width: 1px;             // 表格边框宽度
+$table-icon-margin: 8px;              // 表格中图标和文字之间间距
+$table-list-height: 40px;             // 表格每行高度
+$table-cell-padding-left: 16px;       // 表格单元格内部左边间距
+$tableT-color: #294762;               // 表格提示框内容文字颜色
+$tableT-border-color: #D0DAE8;        // 表格提示框边框颜色
+$tableT-border-width: 1px;            // 表格提示框边框宽度
+$tableT-padding: 16px;                // 表格提示框内边距
+
+$border-light: #D0DAE8;             // 亮色边框
+$border-red: #F12A2A;               // 红色边框
