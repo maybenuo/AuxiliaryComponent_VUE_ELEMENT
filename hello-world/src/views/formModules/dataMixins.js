@@ -66,13 +66,24 @@ const dataMixins = {
           ]
         },
         {
-          label: '案由',
-          prop: ''
-        },
-        {
           label: '受理时间',
           prop: 'acceptanceTime',
           type: 'dateTime'
+        }
+      ],
+      /*  search line data */
+      lineConfig: {
+        searchType: '',
+        searchWord: ''
+      },
+      lineOptions: [
+        {
+          value: '1',
+          label: '姓名'
+        },
+        {
+          value: '2',
+          label: '身份证号码'
         }
       ]
     }

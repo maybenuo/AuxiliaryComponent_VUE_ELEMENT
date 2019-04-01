@@ -1,7 +1,12 @@
 
 .white-board {
   background-color: #FFF;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   border-radius: 3px;
+}
+
+.com-block-layout {
+  padding: 15px;
+  margin: 15px auto;
 }
