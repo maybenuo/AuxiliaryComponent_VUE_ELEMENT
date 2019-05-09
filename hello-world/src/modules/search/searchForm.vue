@@ -16,6 +16,10 @@
           </el-option>
         </el-select>
         <el-input v-if="item.type === 'input'" v-model="searchConfig[item.prop]"></el-input>
+        <p v-if="item.type === 'text'">{{ formData[item.prop] }}</p>        
+        <el-radio-group v-if="item.type === 'radio'" v-model="formData[item.prop]">
+          <el-radio v-for="option in item.options" :label="option.label" :key="option.value">{{ option.label }}</el-radio>
+        </el-radio-group>        
         <el-date-picker
             v-if="item.type === 'dateTime'"
             v-model='searchConfig[item.prop]'
